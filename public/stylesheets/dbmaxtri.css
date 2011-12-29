@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* SITE DEFAULTS */
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	text-align:center;
+  	font-weight: normal;
+  	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	width:965px;
+	margin:0 auto;
+	text-align:left;
+	padding-top:3px;
+}
+
+.footer {
+	clear:both;
+	text-align:center;
+}
+
+img {
+  border: none;
+}
+
+p {
+	padding-top:10px;
+	color:#666;
+}	
+
+.user {
+	color: #FA6415;
+}
+
+.notifications {
+	color:#3C0;
+}
+
+.alerts {
+	color:#F00;
+}
+
+/* SITE NAVIGATION */
+.user-login {
+	float:right;
+}
+
+.no-top-padding {
+	padding-top:0px;
+}
+
+#main-nav	{
+	font-size:16px;
+	text-align:center;
+	padding:10px 0;
+}
+
+a:link, a:visited, a:active, a:hover {
+  text-decoration: none;
+}
+
+a:link, a:visited	{
+	color:#FA6415;
+}
+
+a:hover, a:active {
+	color:#FFCC00;
+	text-decoration:underline;
+}
+
+ul.side-nav {
+	list-style-type:none;
+	width:118px;
+	background-color:#EEE;
+	border:1px solid #999;
+	float:left;
+}
+
+ul.side-nav a {
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-size:12px;
+	border-top:1px solid #999;
+	border-bottom:1px solid #CCC;
+	padding:2px 3px;
+}
+
+ul.side-nav .first a {
+	border-top:none;
+}
+
+ul.side-nav .last a {
+	border-bottom:none;
+}
+
+ul.side-nav a:hover, ul.side-nav a:focus, ul.side-nav .selected a {
+	color:#FFF;
+	background-color:#666;
+}
+
+ul.side-nav li {
+	display:inline;
+}
+
+/* MAIN CONTENT AREAS */
+#content-container {
+	padding-left: 5px;
+	float:left;
+}
+
+#club-news {
+	width:415px;
+	font-size:16px;
+	padding-right:5px;
+	float:left;
+}
+
+#club-news h3 {
+	font-size:12px;
+	color:#FA6415;
+}
+
+.news-section {
+	margin-top:5px;
+	border-bottom:1px solid #CCC;
+	color:#666;
+	font-size:14px;
+	padding-bottom:5px;
+}
+
+#club-news p {
+	padding-top:0;
+}
+
+.NewsHeader a {
+	font-weight:bold;
+	font-size:14px;
+}
+
+.NewsHeader a:link, .NewsHeader a:visited {
+	color:#666;	
+}
+
+.NewsHeader a:hover, .NewsHeader a:focus {
+	color:#999;
+}
+
+#photo-section {
+	width:198px;
+	background-color:#FFE6E6;
+	float:left;
+	padding:1px;
+	border:1px solid #333;
+}
+
+#dbmax-section {
+	width:205px;
+	border:1px solid #000;
+	float:left;
+	margin-left:5px;
+	padding:3px;
+	font-size:14px;
+}
+
+p.strip-line	{
+	color:#FF0010;
+	font-size:14px;
+	padding-top:5px;
+}
+
+.page-header {	
+	padding-top: 5px;
+	margin-bottom:0px;
+	color:#FA6415;
+	font-size: 15px;
+}
+
+.selected {
+	font-weight:bold;
+}

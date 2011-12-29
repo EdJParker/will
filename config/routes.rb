@@ -1,4 +1,17 @@
 Will::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/about"
+
+  get "pages/contact"
+
+  get "pages/events"
+
+  get "pages/membership"
+
+  get "pages/news"
+  
+  root :to => 'pages#home'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
